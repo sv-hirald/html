@@ -75,6 +75,7 @@ footer p{
     padding-right: 40px;*/
     padding: 20px 40px;
     margin-bottom: 60px;
+    height: 80px;
 }
 aside{
     background-color: #f7f7f7;
@@ -82,6 +83,7 @@ aside{
     border-bottom: 5px solid #288c9a;
     padding-top: 50px;
     padding-bottom: 50px;
+    width: 500px;
 }
 body{
     background-color: rgb(245, 243, 240);
@@ -143,6 +145,8 @@ nav{
 }
 .img{
     margin-bottom: 40px;
+    width: 500px;
+    height: auto;
 }
 article{
     margin-bottom: 60px;
