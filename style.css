@@ -45,4 +45,8 @@ footer p{
 aside{
     background-color: #f7f7f7;
     border-top: 5px solid #288c9a;
+    border-bottom: 5px solid #288c9a;
+}
+body{
+    background-color: rgb(245, 243, 240);
 }
