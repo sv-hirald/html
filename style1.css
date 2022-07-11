@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+.product{
+    border: 4px solid black;
+}
+
+.udemy{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+}
+.price{
+    font-size: 24px;
+}
+.shipping{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6f6c6c;
+}
+.more-info:link, .more-info:visited {
+    color: black;
+}
+.more-info:hover,.more-info:active{
+    text-decoration: none;
+}
+.detail-title{
+     text-transform: uppercase;
+     font-size: 16px;
+}
+.detail-list{
+    list-style: square;
+}
+.cart{
+    background-color:#000;
+    border: none;
+    color:white;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cart:hover{
+    color: #000;
+    background-color: #fff;
+}

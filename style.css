@@ -1,8 +1,13 @@
+/*Inheritance and the Universal Selector*/
+
 body{
     color: #444;
     font-family: sans-serif;
     border-top:10px solid #288c9a;
 }
+/**{
+    border-top: 10px solid #288c9a;
+}*/
 
 
 
@@ -62,6 +67,7 @@ body{
 /*.First-li{
     font-weight: bold;
 }*/
+/*pseudo classes*/
 li:first-child{
     font-weight: bold;
 }
@@ -69,8 +75,8 @@ li:last-child{
     font-style: italic;
 }
 /*li:nth-child(even){
-    color: #288c9a;*/
-}
+    color: #288c9a;
+}*/
 article p:last-child{
     color: red;
 }
@@ -97,7 +103,7 @@ a:active{
     font-style: italic;
 }
 /*LVHA*/
-
+/*Conflicts Between Selectors*/
 #copyright{
 color: red;
 }
