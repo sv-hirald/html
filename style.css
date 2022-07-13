@@ -10,6 +10,11 @@ body{
     padding: 0;
     margin: 0;
 }
+.container{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -111,9 +116,14 @@ article p:first-child{
 a {
     color: #288c9a;
 }
-a:link{
+ a:link{
     text-decoration: none;
-}
+ }
+ nav a:link{
+    margin-top: 10px;
+    margin-right: 30px;
+    display: inline-block;
+ }
 a:visited{
     color: #288c9a;
 }
@@ -150,4 +160,26 @@ nav{
 }
 article{
     margin-bottom: 60px;
+}
+h2{
+   /* background-color: tan;*/
+    position: relative;}
+/*Pseudo Element*/
+h2::first-line{
+   color: rebeccapurple; 
+}
+p::first-line{
+    color: brown;
+}
+h2::after{
+    content: "TOP";
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -10;
+    right: -25;
 }
